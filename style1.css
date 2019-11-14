@@ -1,0 +1,165 @@
+body {
+	font-family: Arial;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 1.4;
+	padding: 1em;
+	margin: 2em auto;
+	max-width: 800px;
+	color: #454545;
+}
+
+aside.h1really{
+	margin-top: -1em;
+}
+
+a{
+	color: #07a;
+}
+
+a:visited{
+	color: #941352;
+}
+
+a.logokopimi img.logokopimi {
+	height: 2em;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img.logo {
+	height: 1em;
+}
+
+img.cat {
+	width: 100%;
+
+}
+
+span.mfw{
+	color: #730000;
+}
+
+span.wrong {
+	text-decoration: underline;
+	color: #c0392b;
+	font-weight: bold;
+}
+
+span.little {
+	font-size: 0.4em;
+}
+
+span.cit {
+	font-size: 0.7em;
+	vertical-align: top;
+	padding-left: 0.2em;
+}
+
+span.shittyblue {
+	color: #0101ea;
+}
+
+span.violetish {
+	color: #551a8b;
+}
+
+span.quatre {
+	color: #444;
+	font-weight: 700;
+}
+
+span.quatre:before {
+	background-color: #444;
+	content: "";
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+}
+
+
+span.quatrecinq {
+	color: #454545;
+	font-weight: 700;
+}
+
+span.quatrecinq:before {
+	background-color: #454545;
+	content: "";
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+}
+
+p.wtf {
+	font-size: 0.9em;
+	font-family: monospace;
+}
+
+p.descrcat {
+	font-size: 0.7em;
+}
+
+
+div {
+	display: block;
+}
+
+div.image-texte{
+	float: none;
+	width: inherit;
+}
+
+div.imagechat  {
+	width: 40%;
+	float: left;
+	margin-right: 1em;
+	overflow: hidden;
+}
+
+div.texte  {
+	float: left;
+	width: 55%;
+}
+
+blockquote  {
+	color: #456;
+	margin-bottom: 2em;
+	margin-left: 0;
+	margin-top: 2em;
+}
+
+blockquote:before {
+	color: #666;
+	content: open-quote;
+	font-size: 2.2em;
+	font-weight: 600;
+	font-family: Times New Roman, Arial;
+	width: 1.2rem;
+	margin-top: 0;
+	margin-right: 0.2rem;
+}
+
+blockquote:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+blockquote span{
+	padding-top: 1rem;
+	margin-left: 1rem;
+	float: left;
+}
+
+blockquote author {
+	clear: both;
+	display: block;
+	font-style: oblique;
+	margin-left: 2.4rem;
+}
